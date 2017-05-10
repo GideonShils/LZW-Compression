@@ -1,6 +1,7 @@
 # LZW-Compression
 
 Runs as follows:
+
 Compress: java MyLZW - mode < input > output.lzw
 
 Decompress: java MyLZW + <input.lzw > output
