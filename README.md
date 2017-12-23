@@ -1,14 +1,25 @@
 # LZW-Compression
 
-Runs as follows:
+**Invoke as follows:**
 
-Compress: java MyLZW - mode < input > output.lzw
+Compress: 
 
-Decompress: java MyLZW + <input.lzw > output
+```
+java MyLZW - mode < input > output.lzw
+```
 
-Mode options:
-- n: do nothing
-- r: resets the dictionary once it is full
-- m: monitors the compression ratio and resets the dictionary once the ratio has passed a certain threshold
+Decompress: 
+
+```
+java MyLZW + <input.lzw > output
+```
+
+
+### Mode options:
+
+1. n: do nothing
+2. r: resets the dictionary once it is full
+3. m: monitors the compression ratio and resets the dictionary once the ratio has passed a certain threshold
+
 
 Code is based off of data structures from Algorithms 4th edition by Robert Sedgewick and Kevin Wayne
